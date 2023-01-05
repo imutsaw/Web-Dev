@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- This is how we include external css -->
+    <link rel="stylesheet" href="a.css">
+
+    <!-- This is how we include external javascript -->
+    <script src="a.js"></script>
+
+
+</head>
+<body>
+
+  <h1>Hello World</h1>
+  <h2>Hello World</h2>
+  <h3>Hello World</h3>
+  <h4>Hello World</h4>
+  <h5>Hello World</h5>
+  <h6>Hello World</h6>
+  <a href="https://google.com" target="_blank">Go to Google</a><br>
+  <a href="https://twitter.com" target="_blank">Go to Twitter</a><br>
+  <a href="https://facebook.com" target="_blank">Go to Facebook</a><br>
+  <a href="https://linkedin.com" target="_blank">Go to Linkedin</a><br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- unordered lists -->
+  <ul>
+      <li>This is my first unordered list</li>
+      <li>This is my second unordered list</li>
+      <li>This is my third unordered list</li>
+  </ul>
+
+  <!-- ordered list -->
+  <ol type="I">
+      <li>This is my first ordered list</li> 
+      <li>This is my second ordered list</li> 
+      <li>This is my third ordered list</li> 
+  </ol>
+
+  <!-- Tables -->
+  <h3>HTML Tables</h3>
+  <table>
+      <thead>
+          <tr>
+              <th>Sl. no</th>
+              <th>Emp name</th>
+              <th>Emp id</th>
+              <th>Salary</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>1</td>
+              <td>Rahul</td>
+              <td>2020</td>
+              <td>1000</td>
+          </tr>
+          <tr>
+              <td>2</td>
+              <td>Rahul</td>
+              <td>2021</td>
+              <td>2000</td>
+          </tr>
+          <tr>
+              <td>3</td>
+              <td>Soham</td>
+              <td>2022</td>
+              <td>3000</td>
+          </tr>
+      </tbody>
+  </table>
+
+
+
+<!-- forms -->
+
+  <!-- <h2>This  Forms Tutorial</h2> -->
+  <form action="backend.php">
+      Name: <input type="text" name="myName"><br>
+      <br>
+      Role: <input type="text" name="myRole"><br>
+      <br>
+      Email: <input type="email" name="myEmail"><br>
+      <br>
+      Date: <input type="date" name="myDate"><br>
+      <br>
+      Bonus: <input type="number" name="myBonus"><br>
+      <br>
+      Are you Eligible: <input type="checkbox" name="myEligible"><br>
+      <br>
+      Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender"> 
+      Other<input type="radio" name="myGender"><br>
+      <br>
+      Write about yourself: <br>
+      <textarea name="myText" cols="30" rows="10"></textarea><br>
+      <br>
+      Select anyone:
+      <br>
+      <select for="myCar">
+          <option value="ind">Indica</option>
+          <option value="swf">Swift</option>
+      </select><br>
+      <br>
+      <input type="submit" value="Submit Now">
+      <input type="reset" value="Reset Now">
+  </form>
+
+
+
+  <!-- Inline and block elements -->
+<p style="border: 2px solid red">This is a paragraph</p> <p style="border: 2px solid blue">This is also a paragraph</p>
+<br>
+<span style="border: 2px solid red">this is a span</span> <span style="border: 2px solid blue">This is also a span</span>
+<br>
+<br>
+
+<!-- IDs and classes in HTML -->
+    <h3>Ids and classes in HTML</h3>
+    <div id="mainBox" class="redBg blackBorder">
+        This is mainbox
+
+    </div>    
+
+    <span class="redBg"></span>
+    <span class="redBg"></span>
+</body>
+</html>
